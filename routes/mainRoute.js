@@ -22,7 +22,7 @@ mainRoute.get('/getData', async (req, res) => {
 
     });
 
-    dumpData = await dumpData.save();
+    // dumpData = await dumpData.save();
 
     res.json('Hello World ' + dumpData)
 });
